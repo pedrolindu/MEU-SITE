@@ -3,23 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minecraft</title>
+    <title>Minecraft - Guia Completo</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <div class="logo">
-        <center>
-        <img src="img/Minecraft.png" alt="Minecraft" class="mine">
-        </center>
 
-    </div>
-    <div class="titulo">
-        <img src="img/Written_Book.gif" alt="livro" class="livro">
-        <div class="CON_H"><h1 class="T_H">Historia</h1>
-        <p class="Inf_H">Minecraft e um jogo de video game popular, sua criação teve inicio blablablablablablablablablablablablbabla</p>
-        </div>
-        
-    </div>
-    
+    <!-- Cabeçalho e Logo -->
+    <header class="logo">
+        <img src="img/Minecraft.png" alt="Logo do Minecraft" class="mine">
+        <p class="subtitulo">Explore, construa e sobreviva em um mundo infinito de blocos</p>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav class="menu">
+        <a href="#historia">História</a>
+        <a href="#modos">Modos de Jogo</a>
+        <a href="#dimensoes">Dimensões</a>
+        <a href="#mobs">Criaturas</a>
+        <a href="#dicas">Dicas</a>
+    </nav>
+
+    <main class="container">
+
+        <!-- Seção 1: História (usando seu GIF original) -->
+        <section id="historia" class="card destaque">
+            <img src="img/Written_Book.gif" alt="Livro Encantado" class="livro">
+            <div class="CON_H">
+                <h1 class="T_H">História do Jogo</h1>
+                <p class="Inf_H">
+                    Criado originalmente pelo desenvolvedor sueco Markus "Notch" Persson em 2009 e lançado oficialmente pela Mojang Studios em 2011, o Minecraft revolucionou a indústria dos games. Com um visual composto inteiramente por blocos tridimensionais e geração procedural de mundos, o título se tornou o jogo mais vendido de todos os tempos, incentivando a criatividade, a exploração e a sobrevivência em uma comunidade global gigantesca.
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção 2: Modos de Jogo -->
+        <section id="modos" class="secao">
+            <h2 class="titulo-secao">Modos de Jogo</h2>
+            <div class="grid-cards">
+                <article class="mini-card verde">
+                    <h3>⚔️ Sobrevivência</h3>
+                    <p>Colete recursos naturais, construa abrigos, gerencie sua barra de fome e enfrente monstros que surgem durante a noite ou em cavernas escuras.</p>
+                </article>
+
+                <article class="mini-card diamante">
+                    <h3>🧱 Criativo</h3>
+                    <p>Recursos ilimitados no inventário, capacidade de voar livremente pelo mapa e invulnerabilidade total para focar 100% em grandes construções.</p>
+                </article>
+
+                <article class="mini-card vermelho">
+                    <h3>💀 Hardcore</h3>
+                    <p>Uma variante extrema do modo Sobrevivência: a dificuldade fica travada no nível Difícil e você possui apenas uma única vida.</p>
+                </article>
+
+                <article class="mini-card ouro">
+                    <h3>🗺️ Aventura</h3>
+                    <p>Feito para mapas personalizados criados pela comunidade, onde blocos só podem ser quebrados com ferramentas específicas.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção 3: Dimensões -->
+        <section id="dimensoes" class="secao">
+            <h2 class="titulo-secao">As Três Dimensões</h2>
+            <div class="grid-cards">
+                <article class="mini-card verde">
+                    <h3>🌍 Overworld (Superfície)</h3>
+                    <p>O ponto de partida da jornada. Possui dezenas de biomas variados como florestas, desertos, oceanos, montanhas nevadas e cavernas profundas.</p>
+                </article>
+
+                <article class="mini-card vermelho">
+                    <h3>🔥 The Nether</h3>
+                    <p>Um submundo hostil repleto de oceanos de lava, fortalezas antigas e recursos raros como Quartzo e Detritos Ancestrais (Netherita).</p>
+                </article>
+
+                <article class="mini-card roxo">
+                    <h3>🐉 The End (O Fim)</h3>
+                    <p>Um vazio sombrio formado por ilhas flutuantes de pedra do fim, lar dos Endermen e do temido chefe final: o Dragão Ender.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção 4: Criaturas (Mobs) -->
+        <section id="mobs" class="secao">
+            <h2 class="titulo-secao">Criaturas Icônicas (Mobs)</h2>
+            <div class="lista-mobs">
+                <div class="mob-item">
+                    <strong>💥 Creeper:</strong> O mascote não oficial do jogo. Aproxima-se em silêncio e explode quando chega perto do jogador.
+                </div>
+                <div class="mob-item">
+                    <strong>👁️ Enderman:</strong> Criatura alta e misteriosa que se teletransporta e fica agressiva se você olhar diretamente nos olhos dela.
+                </div>
+                <div class="mob-item">
+                    <strong>🧑‍🌾 Aldeões (Villagers):</strong> Habitantes pacíficos das vilas que trocam itens valiosos e livros encantados por esmeraldas.
+                </div>
+                <div class="mob-item">
+                    <strong>🔊 Warden:</strong> Um dos monstros mais poderosos do jogo, cego, que caça pelo som e vibrações nas Cidades Ancestrais.
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 5: Dicas Rápidas -->
+        <section id="dicas" class="card dicas-box">
+            <h2 class="titulo-secao">Dicas Essenciais para Sobreviver</h2>
+            <ul class="lista-dicas">
+                <li><strong>Primeira Noite:</strong> Antes do pôr do sol, colete madeira, faça uma bancada de trabalho, ferramentas básicas e construa um abrigo fechado.</li>
+                <li><strong>Iluminação é Tudo:</strong> Use tochas para iluminar sua casa e minas; monstros hostis não nascem em locais bem iluminados.</li>
+                <li><strong>Onde Achar Diamantes:</strong> As maiores concentrações de minério de diamante ficam nas camadas mais profundas do mundo, especialmente perto da camada <strong>Y -59</strong>.</li>
+                <li><strong>Nunca Cave Direto para Baixo:</strong> Você pode cair diretamente em um lago de lava ou em uma caverna gigante sem saída.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Página de fã sobre Minecraft • Desenvolvido em HTML5 e CSS3</p>
+    </footer>
+
 </body>
 </html>
